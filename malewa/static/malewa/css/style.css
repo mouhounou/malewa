@@ -1,0 +1,65 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+.logo img{
+   width: 100px;
+}
+
+.homeNav{
+   position: absolute;
+   top: 0;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px 30px;
+   z-index: 100;
+}
+
+.container{
+   position: relative;
+   width: 100%;
+   height: 100%;
+   z-index: 20;
+}
+
+.container video{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+nav{
+
+   display: flex;
+   align-items: center;
+   gap: 20px;
+}
+
+nav a{
+   font-size: 1.3rem;
+   font-weight: bold;
+   color: rgb(223, 218, 210);
+   text-decoration: none;
+   padding: 10px;
+   transition: all .3s ease-in;
+}
+nav a:hover{
+   cursor: pointer;
+   color: rgb(186, 90, 41);
+   background: rgb(255, 255, 255) ;
+   border-radius: 9px;
+   border-bottom: 2px solid rgb(208, 96, 41) ;
+}
+.home{
+   width: 100%;
+   height: 100vh;
+   background: url('./res/p5.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   
+}
